@@ -41,7 +41,7 @@ chmod u+x setup.sh
 ```
 Once the script is executed, it will create and activate .venv, install numpy, pandas and matplotlib, create a gitignore file if missing and write logs to setup.log file.
 
-- Activating the Environment
+- Activating the Environment:
 The script is set to automatically activate the environment during setup but if you open a new terminal later and want to work inside the same environment, you can do this.
 
 ```bash
@@ -104,5 +104,6 @@ Through this project, I gained practical experience in:
 
 
 Overall, this project strengthened my shell scripting and debugging skills. The setup.sh script provides a reliable and reusable approach to preparing Python environments. It reduces manual setup time, ensures consistency across different local machines, and simplifies the onboarding process for new engineers.
+
 
 This project also improved my understanding of Linux and Bash scripting.

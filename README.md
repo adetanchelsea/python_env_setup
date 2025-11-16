@@ -49,6 +49,33 @@ source .venv/bin/activate
 ```
 
 ## Example Outputs
+
+Below are examples of the terminal-style outputs displayed while the script runs:
+
+```
+[INFO] Initializing project setup...
+
+[INFO] Checking for virtual environment...
+
+[INFO] No virtual environment found. Create a new .venv file.
+
+[SUCCESS] Virtual environment created and activated.
+
+[INFO] Upgrading pip to the latest version
+
+[SUCCESS] Pip has been upgraded.
+
+[INFO] Creating .gitignore file.
+
+[SUCCESS] .gitignore created.
+
+[INFO] Installing required Python packages (numpy, pandas, matplotlib)...
+
+[SUCCESS] Python packages installed successfully.
+
+[SUCCESS] Setup done and dusted
+```
+
 ## Challenges Faced
 During this project, I encountered and resolved several challenges including:
 

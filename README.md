@@ -74,6 +74,12 @@ Below are examples of the terminal-style outputs displayed while the script runs
 [SUCCESS] Python packages installed successfully.
 
 [SUCCESS] Setup done and dusted
+
+[INFO] Virtual environment found. Activating now...
+
+[SUCCESS] Activated existing virtual environment.
+
+[WARNING] .gitignore already exists.
 ```
 
 ## Challenges Faced
@@ -107,3 +113,4 @@ Overall, this project strengthened my shell scripting and debugging skills. The 
 
 
 This project also improved my understanding of Linux and Bash scripting.
+

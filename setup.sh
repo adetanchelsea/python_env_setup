@@ -103,7 +103,7 @@ function install_packages {
 #MAIN FUNCTION
 #---------------------------------------------------------------------
 function main {
-    info "Initially project setup..."
+    info "Initializing project setup..."
     
     venv_setup
     pip_upgrade

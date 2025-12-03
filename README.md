@@ -1,6 +1,6 @@
 # Python Environment Setup
 
-This project provides an automated way to set up a Python development environment using a Bash script. The script creates or activates a virtual environment, upgrades pip, installs essential Python packages, generates a .gitignore file, and logs all actions into a setup.log file. It is designed to help new engineers quickly bootstrap a project environment without manually repeating setup steps.
+This project provides an automated way to set up a Python development environment using a Bash script. The script creates or activates a virtual environment, upgrades pip, installs essential Python packages from the requirements.txt file, generates a .gitignore file, and logs all actions into a setup.log file. It is designed to help new engineers quickly bootstrap a project environment without manually repeating setup steps.
 
 ## Table of Contents
 - [Features](#features)
@@ -16,7 +16,7 @@ This project provides an automated way to set up a Python development environmen
 
 - Upgrades pip to the latest version
 
-- Installs essential Python packages (NumPy, Pandas, Matplotlib)
+- Installs essential Python packages (NumPy, Pandas, Matplotlib) from requirements.txt.
 
 - Generates a .gitignore file with standard Python ignore rules
 
@@ -30,6 +30,12 @@ This project provides an automated way to set up a Python development environmen
 
 ## How To Use 
 Follow the steps to run the setup script on your local machine.
+- Download or clone the repository to your local machine.
+```bash
+git clone https://github.com/adetanchelsea/python_env_setup.git
+cd python_env_setup
+```
+
 - Make the script executable
 ```bash
 chmod u+x setup.sh
@@ -39,7 +45,7 @@ chmod u+x setup.sh
 ```bash
 ./setup.sh
 ```
-Once the script is executed, it will create and activate .venv, install numpy, pandas and matplotlib, create a gitignore file if missing and write logs to setup.log file.
+Once the script is executed, it will create and activate .venv, install the packages in the requirements.txt file, create a gitignore file if missing and write logs to setup.log file.
 
 - Activating the Environment:
 The script is set to automatically activate the environment during setup but if you open a new terminal later and want to work inside the same environment, you can do this.

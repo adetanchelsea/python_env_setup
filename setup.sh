@@ -95,7 +95,7 @@ END
 function install_packages {
 #   Installs essential python packages (numpy, pandas and matplolib) needed for the project.
     info "Installing required Python packages (numpy, pandas and matplotlib)..."
-    pip install numpy pandas matplotlib >> "$LOG_FILE" 2>&1
+    pip install -r requirements.txt >> "$LOG_FILE" 2>&1
     success "Python packages installed successfully."
 }
 
